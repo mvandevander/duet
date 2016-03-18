@@ -1,4 +1,6 @@
 # duetgame
-A puzzle platforming game for two players (doesn't include level files)
+Duet is a puzzle platforming game for two players. This is the game code, its engine and level editor. Does not include any assets or levels.
 
-Also the level editor for said game.
+All is written in C++, using SDL for platform support and OpenGL for rendering.
+
+
