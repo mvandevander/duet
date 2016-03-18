@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Duet Editor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Entities\;Entities\Entities .hpp\;Entities\Entities .cpp\;Shaders\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\..\Latest Build\Duet_Editor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="H:\Latest Build" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="-windowed" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="..\..\Latest Build\Duet_Editor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="H:\Latest Build" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wfatal-errors" />
+			<Add option="-Wall" />
+			<Add option="-D_WIN32" />
+			<Add option="-DGLEW_STATIC" />
+			<Add option="-DWIN32" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lglew_static -lglu32 -lopengl32 -lfreetype" />
+		</Linker>
+		<Unit filename="BaseUIElement.hpp" />
+		<Unit filename="CollisionPoint.cpp" />
+		<Unit filename="CollisionPoint.hpp" />
+		<Unit filename="CollisionSeries.cpp" />
+		<Unit filename="CollisionSeries.hpp" />
+		<Unit filename="Entity.hpp" />
+		<Unit filename="Entity_ButtonType_Black.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_ButtonType_Black.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_ButtonType_Grey.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_ButtonType_Grey.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_ButtonType_White.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_ButtonType_White.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Black_Button.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Black_Button.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Death.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Death.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Death_Green.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Death_Green.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Death_Red.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Death_Red.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Green.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Green.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Grey_Button.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Grey_Button.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Puzzle_Barrier.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Puzzle_Barrier.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Red.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_Red.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_White_Button.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_CollisionType_White_Button.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_DeathLaserType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_DeathLaserType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_DeathZoneType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_DeathZoneType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_ExitZoneType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_ExitZoneType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_GrassType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_GrassType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_MarkerType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_MarkerType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_ParticleSystemType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_ParticleSystemType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_PlayerStartType_Green.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_PlayerStartType_Green.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_PlayerStartType_Red.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_PlayerStartType_Red.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_RespawnZoneType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_RespawnZoneType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_SignType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_SignType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Entity_TreeType.cpp">
+			<Option virtualFolder="Entities\Entities .cpp\" />
+		</Unit>
+		<Unit filename="Entity_TreeType.hpp">
+			<Option virtualFolder="Entities\Entities .hpp\" />
+		</Unit>
+		<Unit filename="Font.cpp" />
+		<Unit filename="Font.hpp" />
+		<Unit filename="GL_DrawingPrimitives.cpp" />
+		<Unit filename="GL_DrawingPrimitives.hpp" />
+		<Unit filename="GL_ShaderFuncs.cpp" />
+		<Unit filename="GL_ShaderFuncs.hpp" />
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.hpp" />
+		<Unit filename="NAMESPACE_main_editor.hpp" />
+		<Unit filename="Object.cpp" />
+		<Unit filename="Object.hpp" />
+		<Unit filename="Particle.cpp" />
+		<Unit filename="Particle.hpp" />
+		<Unit filename="SDLTypingHandler.cpp" />
+		<Unit filename="SDLTypingHandler.hpp" />
+		<Unit filename="Static.cpp" />
+		<Unit filename="Static.hpp" />
+		<Unit filename="Status_List.cpp" />
+		<Unit filename="Status_List.hpp" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.hpp" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.hpp" />
+		<Unit filename="Tree_Branch.cpp" />
+		<Unit filename="Tree_Branch.hpp" />
+		<Unit filename="Tree_Node.cpp" />
+		<Unit filename="Tree_Node.hpp" />
+		<Unit filename="UI_Button.cpp" />
+		<Unit filename="UI_Button.hpp" />
+		<Unit filename="UI_Sliderf.cpp" />
+		<Unit filename="UI_Sliderf.hpp" />
+		<Unit filename="UI_Slideri.cpp" />
+		<Unit filename="UI_Slideri.hpp" />
+		<Unit filename="UI_TextField.cpp" />
+		<Unit filename="UI_TextField.hpp" />
+		<Unit filename="UI_TreeEditor.cpp" />
+		<Unit filename="UI_TreeEditor.hpp" />
+		<Unit filename="VSync.cpp" />
+		<Unit filename="VSync.hpp" />
+		<Unit filename="global_vars.hpp" />
+		<Unit filename="includes_everything.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main_editor_functions.hpp" />
+		<Unit filename="point_2d.cpp" />
+		<Unit filename="point_2d.hpp" />
+		<Unit filename="random_number_generators.cpp" />
+		<Unit filename="random_number_generators.hpp" />
+		<Unit filename="trig_functions_degrees.cpp" />
+		<Unit filename="trig_functions_degrees.hpp" />
+		<Unit filename="vec_2d.cpp" />
+		<Unit filename="vec_2d.hpp" />
+		<Unit filename="version.h" />
+		<Unit filename="xFile.hpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="..\..\Latest Build\shaders\simple.frag">
+			<Option virtualFolder="Shaders\" />
+		</Unit>
+		<Unit filename="..\..\Latest Build\shaders\simple.vert">
+			<Option virtualFolder="Shaders\" />
+		</Unit>
+		<Extensions>
+			<code_completion>
+				<search_path add="H:\CodeBlocks\MinGW\include" />
+			</code_completion>
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
