@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Animation.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="658" topLine="0" />
+	</File>
+	<File name="Animation.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="319" topLine="0" />
+	</File>
+	<File name="Animation_Frame.cpp" open="0" top="0" tabpos="22">
+		<Cursor position="133" topLine="0" />
+	</File>
+	<File name="Animation_Frame.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="290" topLine="0" />
+	</File>
+	<File name="CollisionPoint.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="455" topLine="0" />
+	</File>
+	<File name="CollisionPoint.hpp" open="0" top="0" tabpos="14">
+		<Cursor position="114" topLine="0" />
+	</File>
+	<File name="CollisionSeries.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="491" topLine="3" />
+	</File>
+	<File name="CollisionSeries.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="440" topLine="0" />
+	</File>
+	<File name="Entity.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="115" topLine="0" />
+	</File>
+	<File name="Entity_ButtonType_Black.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="922" topLine="0" />
+	</File>
+	<File name="Entity_ButtonType_Grey.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="824" topLine="0" />
+	</File>
+	<File name="Entity_ButtonType_White.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="369" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Black_Button.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Death.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Death.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Death_Green.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="229" topLine="30" />
+	</File>
+	<File name="Entity_CollisionType_Death_Green.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Death_Red.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Death_Red.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Green.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Grey_Button.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Puzzle_Barrier.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="634" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Puzzle_Barrier.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="54" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_Red.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_White_Button.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_CollisionType_White_Button.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Entity_DeathLaserType.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="420" topLine="0" />
+	</File>
+	<File name="Entity_DeathLaserType.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="335" topLine="0" />
+	</File>
+	<File name="Entity_ExitZoneType.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="447" topLine="0" />
+	</File>
+	<File name="Entity_ExitZoneType.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="247" topLine="0" />
+	</File>
+	<File name="Entity_GrassType.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="620" topLine="0" />
+	</File>
+	<File name="Entity_GrassType.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="246" topLine="0" />
+	</File>
+	<File name="Entity_MarkerType.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="722" topLine="0" />
+	</File>
+	<File name="Entity_RespawnZoneType.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="2095" topLine="0" />
+	</File>
+	<File name="Entity_RespawnZoneType.hpp" open="0" top="0" tabpos="8">
+		<Cursor position="267" topLine="0" />
+	</File>
+	<File name="Entity_SignType.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="448" topLine="0" />
+	</File>
+	<File name="Entity_SignType.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="300" topLine="0" />
+	</File>
+	<File name="Font.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="14287" topLine="343" />
+	</File>
+	<File name="GL_DrawingPrimitives.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="186" topLine="0" />
+	</File>
+	<File name="GL_DrawingPrimitives.hpp" open="0" top="0" tabpos="8">
+		<Cursor position="564" topLine="0" />
+	</File>
+	<File name="GL_ShaderFuncs.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="280" topLine="0" />
+	</File>
+	<File name="GL_ShaderFuncs.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="433" topLine="0" />
+	</File>
+	<File name="Game.cpp" open="1" top="1" tabpos="0">
+		<Cursor position="61757" topLine="1172" />
+	</File>
+	<File name="Game.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="262" topLine="0" />
+	</File>
+	<File name="Object.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="503" topLine="0" />
+	</File>
+	<File name="Object.hpp" open="0" top="0" tabpos="9">
+		<Cursor position="173" topLine="0" />
+	</File>
+	<File name="SDLTypingHandler.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="51" topLine="0" />
+	</File>
+	<File name="SDLTypingHandler.hpp" open="0" top="0" tabpos="16">
+		<Cursor position="314" topLine="0" />
+	</File>
+	<File name="Static.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="381" topLine="181" />
+	</File>
+	<File name="Static.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="137" topLine="0" />
+	</File>
+	<File name="Texture.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="226" topLine="32" />
+	</File>
+	<File name="Texture.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="Timer.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="332" topLine="4" />
+	</File>
+	<File name="Timer.hpp" open="0" top="0" tabpos="18">
+		<Cursor position="265" topLine="0" />
+	</File>
+	<File name="VSync.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1091" topLine="9" />
+	</File>
+	<File name="VSync.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="game_elements.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="897" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="669" topLine="7" />
+	</File>
+	<File name="point_2d.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="trig_functions_degrees.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="767" topLine="0" />
+	</File>
+	<File name="trig_functions_degrees.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="575" topLine="0" />
+	</File>
+	<File name="vec_2d.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="226" topLine="8" />
+	</File>
+	<File name="vec_2d.hpp" open="0" top="0" tabpos="12">
+		<Cursor position="561" topLine="0" />
+	</File>
+	<File name="version.h" open="0" top="0" tabpos="6">
+		<Cursor position="23" topLine="0" />
+	</File>
+	<File name="xFile.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="1262" topLine="120" />
+	</File>
+</CodeBlocks_layout_file>

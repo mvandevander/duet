@@ -1,0 +1,406 @@
+# depslib dependency file v1.0
+1265403954 source:h:\duet cpp\duet\animation.cpp
+	"Animation.hpp"
+	"Texture.hpp"
+	<sstream>
+
+1265403772 h:\duet cpp\duet\animation.hpp
+	"Texture.hpp"
+	"Animation_Frame.hpp"
+	<vector>
+	"Timer.hpp"
+
+1344191600 h:\duet cpp\duet\texture.hpp
+	<string>
+	<GL/glew.h>
+
+1265336976 h:\duet cpp\duet\animation_frame.hpp
+	"Texture.hpp"
+
+1239723474 h:\duet cpp\duet\timer.hpp
+
+1265334406 source:h:\duet cpp\duet\animation_frame.cpp
+	"Animation_Frame.hpp"
+	"Texture.hpp"
+
+1264803118 source:h:\duet cpp\duet\collisionpoint.cpp
+	"CollisionPoint.hpp"
+
+1264803110 h:\duet cpp\duet\collisionpoint.hpp
+	<fstream>
+
+1344198930 source:h:\duet cpp\duet\collisionseries.cpp
+	"CollisionSeries.hpp"
+	"CollisionPoint.hpp"
+	"GL_DrawingPrimitives.hpp"
+	"trig_functions_degrees.hpp"
+
+1344199084 h:\duet cpp\duet\collisionseries.hpp
+	<vector>
+	"CollisionPoint.hpp"
+	<fstream>
+	"vec_2d.hpp"
+	"point_2d.hpp"
+	<GL/glew.h>
+
+1266698008 h:\duet cpp\duet\vec_2d.hpp
+	"point_2d.hpp"
+
+1265067132 h:\duet cpp\duet\point_2d.hpp
+
+1346132714 h:\duet cpp\duet\gl_drawingprimitives.hpp
+	<SDL/SDL.h>
+	<string>
+	<GL/glew.h>
+
+1294514336 h:\duet cpp\duet\trig_functions_degrees.hpp
+	<math.h>
+	<SDL/SDL.h>
+
+1334292164 source:h:\duet cpp\duet\entity_buttontype_black.cpp
+	"Entity_ButtonType_Black.hpp"
+	<fstream>
+
+1315178890 h:\duet cpp\duet\entity_buttontype_black.hpp
+	"Entity.hpp"
+
+1265336464 h:\duet cpp\duet\entity.hpp
+	"Object.hpp"
+
+1347217648 h:\duet cpp\duet\object.hpp
+	<SDL/SDL.h>
+	<fstream>
+	<string>
+
+1334291838 source:h:\duet cpp\duet\entity_buttontype_grey.cpp
+	"Entity_ButtonType_Grey.hpp"
+	<fstream>
+
+1315179176 h:\duet cpp\duet\entity_buttontype_grey.hpp
+	"Entity.hpp"
+
+1334291846 source:h:\duet cpp\duet\entity_buttontype_white.cpp
+	"Entity_ButtonType_White.hpp"
+	<fstream>
+
+1315179046 h:\duet cpp\duet\entity_buttontype_white.hpp
+	"Entity.hpp"
+
+1334291862 source:h:\duet cpp\duet\entity_collisiontype.cpp
+	"Entity_CollisionType.hpp"
+	<fstream>
+
+1295630356 h:\duet cpp\duet\entity_collisiontype.hpp
+	"Entity.hpp"
+
+1334291878 source:h:\duet cpp\duet\entity_collisiontype_black_button.cpp
+	"Entity_CollisionType_Black_Button.hpp"
+	<fstream>
+
+1314549774 h:\duet cpp\duet\entity_collisiontype_black_button.hpp
+	"Entity.hpp"
+
+1334291886 source:h:\duet cpp\duet\entity_collisiontype_green.cpp
+	"Entity_CollisionType_Green.hpp"
+	<fstream>
+
+1314549962 h:\duet cpp\duet\entity_collisiontype_green.hpp
+	"Entity.hpp"
+
+1334291896 source:h:\duet cpp\duet\entity_collisiontype_grey_button.cpp
+	"Entity_CollisionType_Grey_Button.hpp"
+	<fstream>
+
+1314550010 h:\duet cpp\duet\entity_collisiontype_grey_button.hpp
+	"Entity.hpp"
+
+1340586080 source:h:\duet cpp\duet\entity_collisiontype_puzzle_barrier.cpp
+	"Entity_CollisionType_Puzzle_Barrier.hpp"
+	<fstream>
+
+1340586058 h:\duet cpp\duet\entity_collisiontype_puzzle_barrier.hpp
+	"Entity.hpp"
+
+1334291906 source:h:\duet cpp\duet\entity_collisiontype_red.cpp
+	"Entity_CollisionType_Red.hpp"
+	<fstream>
+
+1314549934 h:\duet cpp\duet\entity_collisiontype_red.hpp
+	"Entity.hpp"
+
+1334291914 source:h:\duet cpp\duet\entity_collisiontype_white_button.cpp
+	"Entity_CollisionType_White_Button.hpp"
+	<fstream>
+
+1295630696 h:\duet cpp\duet\entity_collisiontype_white_button.hpp
+	"Entity.hpp"
+
+1338179430 source:h:\duet cpp\duet\entity_deathlasertype.cpp
+	"Entity_DeathLaserType.hpp"
+	<fstream>
+
+1338177278 h:\duet cpp\duet\entity_deathlasertype.hpp
+	"Entity.hpp"
+
+1335109136 source:h:\duet cpp\duet\entity_deathzonetype.cpp
+	"Entity_DeathZoneType.hpp"
+	<fstream>
+
+1335109088 h:\duet cpp\duet\entity_deathzonetype.hpp
+	"Entity.hpp"
+
+1339129420 source:h:\duet cpp\duet\entity_exitzonetype.cpp
+	"Entity_ExitZoneType.hpp"
+	<fstream>
+
+1339127028 h:\duet cpp\duet\entity_exitzonetype.hpp
+	"Entity.hpp"
+
+1335006506 source:h:\duet cpp\duet\entity_grasstype.cpp
+	"Entity_GrassType.hpp"
+	"trig_functions_degrees.hpp"
+	<fstream>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1265659962 h:\duet cpp\duet\entity_grasstype.hpp
+	"Entity.hpp"
+	"Object.hpp"
+	"game_elements.hpp"
+	"SDL/SDL.h"
+	"SDL/SDL_mixer.h"
+
+1347242618 h:\duet cpp\duet\game_elements.hpp
+	"Object.hpp"
+	"Static.hpp"
+	"Entity.hpp"
+	"Texture.hpp"
+	"CollisionSeries.hpp"
+	"Animation.hpp"
+	<vector>
+	"vec_2d.hpp"
+
+1347217664 h:\duet cpp\duet\static.hpp
+	"Object.hpp"
+
+1335011868 source:h:\duet cpp\duet\entity_markertype.cpp
+	"Entity_MarkerType.hpp"
+	<fstream>
+
+1335011906 h:\duet cpp\duet\entity_markertype.hpp
+	"Entity.hpp"
+
+1335010240 source:h:\duet cpp\duet\entity_playerstarttype_green.cpp
+	"Entity_PlayerStartType_Green.hpp"
+	<fstream>
+
+1335010186 h:\duet cpp\duet\entity_playerstarttype_green.hpp
+	"Entity.hpp"
+
+1335010236 source:h:\duet cpp\duet\entity_playerstarttype_red.cpp
+	"Entity_PlayerStartType_Red.hpp"
+	<fstream>
+
+1335010200 h:\duet cpp\duet\entity_playerstarttype_red.hpp
+	"Entity.hpp"
+
+1340585900 source:h:\duet cpp\duet\entity_respawnzonetype.cpp
+	"Entity_RespawnZoneType.hpp"
+	<fstream>
+
+1340585854 h:\duet cpp\duet\entity_respawnzonetype.hpp
+	"Entity.hpp"
+
+1335006526 source:h:\duet cpp\duet\entity_signtype.cpp
+	"Entity_SignType.hpp"
+	"trig_functions_degrees.hpp"
+	"game_elements.hpp"
+	<fstream>
+
+1266796514 h:\duet cpp\duet\entity_signtype.hpp
+	"game_elements.hpp"
+	"Timer.hpp"
+
+1346132716 source:h:\duet cpp\duet\gl_drawingprimitives.cpp
+	<stdlib.h>
+	<stdio.h>
+	<GL/glew.h>
+	<SDL/SDL.h>
+	<math.h>
+	"GL_DrawingPrimitives.hpp"
+	"trig_functions_degrees.hpp"
+
+1344833676 source:h:\duet cpp\duet\gl_shaderfuncs.cpp
+	"GL_ShaderFuncs.hpp"
+	<stdlib.h>
+	<stdio.h>
+	<GL/glew.h>
+	<SDL/SDL.h>
+	<io.h>
+	<string>
+	<fstream>
+
+1342503680 h:\duet cpp\duet\gl_shaderfuncs.hpp
+	<SDL/SDL.h>
+	<stdlib.h>
+	<stdio.h>
+	<GL/glew.h>
+	<string>
+	<io.h>
+
+1347246144 source:h:\duet cpp\duet\game.cpp
+	"Game.hpp"
+	"version.h"
+	<SDL/SDL.h>
+	"SDL/SDL_mixer.h"
+	"Vsync.hpp"
+	"trig_functions_degrees.hpp"
+	"game_elements.hpp"
+	<sstream>
+	"GL_DrawingPrimitives.hpp"
+	"Entity_GrassType.hpp"
+	"Entity_SignType.hpp"
+	"Entity_CollisionType.hpp"
+	"Entity_CollisionType_White_Button.hpp"
+	"Entity_CollisionType_Black_Button.hpp"
+	"Entity_CollisionType_Grey_Button.hpp"
+	"Entity_CollisionType_Green.hpp"
+	"Entity_CollisionType_Red.hpp"
+	"Entity_CollisionType_Puzzle_Barrier.hpp"
+	"Entity_CollisionType_Death.hpp"
+	"Entity_CollisionType_Death_Green.hpp"
+	"Entity_CollisionType_Death_Red.hpp"
+	"Entity_ButtonType_White.hpp"
+	"Entity_ButtonType_Black.hpp"
+	"Entity_ButtonType_Grey.hpp"
+	"Entity_PlayerStartType_Red.hpp"
+	"Entity_PlayerStartType_Green.hpp"
+	"Entity_RespawnZoneType.hpp"
+	"Entity_DeathZoneType.hpp"
+	"Entity_ExitZoneType.hpp"
+	"Entity_DeathLaserType.hpp"
+	"Entity_MarkerType.hpp"
+	<string>
+	<GL/glew.h>
+	<GL/wglew.h>
+	"GL_ShaderFuncs.hpp"
+	<SDL/SDL_image.h>
+	"vec_2d.hpp"
+
+1346132754 h:\duet cpp\duet\game.hpp
+	<SDL/SDL.h>
+	"Timer.hpp"
+	"game_elements.hpp"
+	"SDLTypingHandler.hpp"
+	<string>
+	<GL/glew.h>
+	"GL_DrawingPrimitives.hpp"
+	"Font.hpp"
+	<SDL/SDL_image.h>
+	"SDL/SDL_mixer.h"
+	<vector>
+	"Object.hpp"
+	"Static.hpp"
+	"Entity.hpp"
+	"CollisionSeries.hpp"
+	"CollisionPoint.hpp"
+	"vec_2d.hpp"
+	"Texture.hpp"
+
+1264088070 h:\duet cpp\duet\sdltypinghandler.hpp
+	<string>
+	<SDL/SDL.h>
+
+1347246146 h:\duet cpp\duet\version.h
+
+1239983138 h:\duet cpp\duet\vsync.hpp
+
+1335715152 source:h:\duet cpp\duet\object.cpp
+	"Object.hpp"
+	<SDL/SDL.h>
+
+1264088066 source:h:\duet cpp\duet\sdltypinghandler.cpp
+	"SDLTypingHandler.hpp"
+	<SDL/SDL.h>
+	<string>
+
+1343107758 source:h:\duet cpp\duet\static.cpp
+	"Static.hpp"
+	<fstream>
+	<string>
+
+1344269500 source:h:\duet cpp\duet\texture.cpp
+	"Texture.hpp"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+
+1239982122 source:h:\duet cpp\duet\timer.cpp
+	"Timer.hpp"
+	<SDL/SDL.h>
+
+1344200168 source:h:\duet cpp\duet\vsync.cpp
+	"Vsync.hpp"
+	<SDL/SDL.h>
+	<GL/glew.h>
+	<GL/wglew.h>
+	<string>
+
+1344268358 source:h:\duet cpp\duet\main.cpp
+	"Game.hpp"
+
+1265066874 source:h:\duet cpp\duet\point_2d.cpp
+	"point_2d.hpp"
+
+1294514394 source:h:\duet cpp\duet\trig_functions_degrees.cpp
+	"trig_functions_degrees.hpp"
+	<SDL/SDL.h>
+
+1266699506 source:h:\duet cpp\duet\vec_2d.cpp
+	"vec_2d.hpp"
+	"point_2d.hpp"
+	<math.h>
+	"GL_DrawingPrimitives.hpp"
+
+1345413198 source:h:\duet cpp\duet\entity_collisiontype_death_green.cpp
+	"Entity_CollisionType_Death_Green.hpp"
+	<fstream>
+
+1345413140 h:\duet cpp\duet\entity_collisiontype_death_green.hpp
+	"Entity.hpp"
+
+1345413168 source:h:\duet cpp\duet\entity_collisiontype_death_red.cpp
+	"Entity_CollisionType_Death_Red.hpp"
+	<fstream>
+
+1345413114 h:\duet cpp\duet\entity_collisiontype_death_red.hpp
+	"Entity.hpp"
+
+1345419702 source:h:\duet cpp\duet\entity_collisiontype_death.cpp
+	"Entity_CollisionType_Death.hpp"
+	<fstream>
+
+1345419280 h:\duet cpp\duet\entity_collisiontype_death.hpp
+	"Entity.hpp"
+
+1346128400 h:\duet cpp\duet\font.hpp
+	<SDL/SDL.h>
+	<string>
+	<GL/glew.h>
+
+1346132298 source:h:\duet cpp\duet\font.cpp
+	"Font.hpp"
+	<ft2build.h>
+	<freetype/freetype.h>
+	<freetype/ftglyph.h>
+	<freetype/ftoutln.h>
+	<freetype/fttrigon.h>
+	<SDL/SDL.h>
+	<string>
+	<GL/glew.h>
+	"xFile.hpp"
+
+1344843434 h:\duet cpp\duet\xfile.hpp
+	<SDL/SDL.h>
+	<string>
+
